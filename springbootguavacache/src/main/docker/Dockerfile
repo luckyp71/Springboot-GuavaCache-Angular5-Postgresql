@@ -1,8 +1,8 @@
 FROM java:8
  
-MAINTAINER Lucky Pratama
+LABEL maintainer="Lucky Pratama"
  
-ADD springbootguavacache-0.0.1-SNAPSHOT.jar /app.jar
+COPY springbootguavacache-0.0.1-SNAPSHOT.jar /app.jar
  
 EXPOSE 8090
  
